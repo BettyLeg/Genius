@@ -9,7 +9,7 @@
   font-family:'Arial';
   font-size:8px;
   text-transform:uppercase;
-  color:#aaa;
+  color:#aaa!important;
   font-weight:400;
   letter-spacing:1px;
 }
@@ -140,7 +140,7 @@
   height:200px;
   border-radius:100%;
   background:var(--accent);
-  opacity:.1;
+  opacity:.05;
   content:"";
   display:block;
   left:-25%;
@@ -149,7 +149,7 @@
   z-index:1;
 }
 .btb001-cosas:before {
-    opacity: .14;
+    opacity: .1;
     z-index: 2;
     right: -46%;
     bottom: -50%;
