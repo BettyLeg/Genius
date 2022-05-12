@@ -1,4 +1,18 @@
 /*********** POST ************/
+.btb00-cred{
+  text-decoration:none;
+  margin:-5px auto 10px;
+  width:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Arial';
+  font-size:8px;
+  text-transform:uppercase;
+  color:#aaa;
+  font-weight:400;
+  letter-spacing:1px;
+}
 .btbaul001-post{
   width:400px;
   margin:10px auto;
