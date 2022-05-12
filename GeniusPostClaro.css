@@ -1,0 +1,86 @@
+/*********** POST ************/
+.btbaul001-post{
+  width:400px;
+  margin:10px auto;
+  background:#f8f8f8;
+  padding:15px;
+  outline:1px soli d #eee;
+  border:1px solid #eee;
+  outline-offset:-16px;
+  border-radius:15px;
+  overflow:hidden;
+  min-height:110px;
+}
+.btb001post-titulo{
+  height:50px;
+  border:1px solid #eee;
+  background:#fafafa;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  position:relative;
+  border-radius:10px 10px 0px 0px;
+  overflow:hidden;
+}
+.btb001post-icon{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  width:60px;
+  height:100%;
+  border-radius:0px 100px 100px 0px;
+  padding:0px 10px;
+  margin-right:15px;
+}
+.btb001post-icon > i{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:30px;
+  height:30px;
+  background:#fafafa;
+  border-radius:100%
+}
+.btb001post-titulo > span{
+  font-family:'Fira Sans';
+  text-transform:uppercase;
+  font-size:11.5px;
+  font-weight:900;
+  padding-right:10px;
+  line-height:12px;
+  overflow:hidden;
+}
+.btb001post-txt{
+  padding:40px 40px;
+  background:#fefefe;
+  text-align:justify;
+  font-family:'arial';
+  font-size:12px;
+  line-height:17px;
+  color:#888;
+  border:1px solid #eee;
+  border-top:0;
+}
+.btb001post-datos{
+  border:1px solid #eee;
+  border-top:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:34px;
+  background:#fbfbfb;
+  overflow:hidden;
+  border-radius:0px 0px 10px 10px;
+}
+.btb001post-datos > span{
+  font-size:10px;
+  text-transform:uppercase;
+  font-family:'Open Sans';
+  color:#fff;
+  font-weight:400;
+  padding:4px 10px;
+}
+.btb001post-datos > span > i{
+  padding:0px 2px;
+  font-size:8px;
+}
